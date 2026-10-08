@@ -17,6 +17,10 @@ class CauchyKernel(_RobustKernel):
 
     where r = ||x1 - x2|| is the Euclidean distance between the inputs and `c` is a positive scale parameter.
 
+    This implementation is derived from J. A. Gallego, F. A. González, and O. Nasraoui,
+    "Robust kernels for robust location estimation," Neurocomputing, vol. 429, no. 1, pp. 174-186, 2021.
+    DOI: 10.1016/j.neucom.2020.10.090
+
     .. note::
 
         This kernel does not have an `outputscale` parameter. To add a scaling parameter,
