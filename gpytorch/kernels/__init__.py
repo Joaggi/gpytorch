@@ -4,7 +4,9 @@ from __future__ import annotations
 
 from . import keops
 from .additive_structure_kernel import AdditiveStructureKernel
+from .andrews_kernel import AndrewsKernel
 from .arc_kernel import ArcKernel
+from .cauchy_kernel import CauchyKernel
 from .constant_kernel import ConstantKernel
 from .cosine_kernel import CosineKernel
 from .cylindrical_kernel import CylindricalKernel
@@ -14,6 +16,7 @@ from .gibbs_kernel import GibbsKernel
 from .grid_interpolation_kernel import GridInterpolationKernel
 from .grid_kernel import GridKernel
 from .hamming_kernel import HammingIMQKernel
+from .huber_kernel import HuberKernel
 from .index_kernel import IndexKernel
 from .inducing_point_kernel import InducingPointKernel
 from .kernel import AdditiveKernel, Kernel, ProductKernel
@@ -38,13 +41,16 @@ from .scale_kernel import ScaleKernel
 from .spectral_delta_kernel import SpectralDeltaKernel
 from .spectral_mixture_kernel import SpectralMixtureKernel
 from .spherical_linear_kernel import SphericalLinearKernel
+from .tukey_kernel import TukeyKernel
 
 __all__ = [
     "keops",
     "Kernel",
+    "AndrewsKernel",
     "ArcKernel",
     "AdditiveKernel",
     "AdditiveStructureKernel",
+    "CauchyKernel",
     "ConstantKernel",
     "CylindricalKernel",
     "MultiDeviceKernel",
@@ -55,6 +61,7 @@ __all__ = [
     "GridKernel",
     "GridInterpolationKernel",
     "HammingIMQKernel",
+    "HuberKernel",
     "IndexKernel",
     "InducingPointKernel",
     "LCMKernel",
@@ -78,4 +85,5 @@ __all__ = [
     "SpectralMixtureKernel",
     "SphericalLinearKernel",
     "Matern52KernelGrad",
+    "TukeyKernel",
 ]

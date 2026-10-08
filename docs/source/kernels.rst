@@ -208,6 +208,33 @@ Specialty Kernels
 .. autoclass:: SphericalLinearKernel
    :members:
 
+Robust Kernels
+-----------------------------------
+
+:hidden:`AndrewsKernel`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: AndrewsKernel
+   :members:
+
+:hidden:`CauchyKernel`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: CauchyKernel
+   :members:
+
+:hidden:`HuberKernel`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: HuberKernel
+   :members:
+
+:hidden:`TukeyKernel`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: TukeyKernel
+   :members:
+
 Kernels for Scalable GP Regression Methods
 --------------------------------------------
 
