@@ -235,6 +235,12 @@ Robust Kernels
 .. autoclass:: TukeyKernel
    :members:
 
+:hidden:`SchoenbergKernel`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: SchoenbergKernel
+   :members:
+
 Kernels for Scalable GP Regression Methods
 --------------------------------------------
 

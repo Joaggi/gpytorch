@@ -38,6 +38,7 @@ from .rbf_kernel_gradgrad import RBFKernelGradGrad
 from .rff_kernel import RFFKernel
 from .rq_kernel import RQKernel
 from .scale_kernel import ScaleKernel
+from .schoenberg_kernel import SchoenbergKernel
 from .spectral_delta_kernel import SpectralDeltaKernel
 from .spectral_mixture_kernel import SpectralMixtureKernel
 from .spherical_linear_kernel import SphericalLinearKernel
@@ -81,6 +82,7 @@ __all__ = [
     "RBFKernelGradGrad",
     "RQKernel",
     "ScaleKernel",
+    "SchoenbergKernel",
     "SpectralDeltaKernel",
     "SpectralMixtureKernel",
     "SphericalLinearKernel",
